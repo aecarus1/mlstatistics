@@ -1,4 +1,5 @@
 import DataTemplate from "@/components/DataTemplate";
+import BottomShade from "@/components/bottom-shadow";
 
 const matches = [
   {
@@ -36,7 +37,7 @@ const matches = [
     format: "BO3",
     round: "Round 2",
     players: [
-      { role: "Exp Lane", hero: "Uranus", kda: "1/1/4", score: 7, mvp: true },
+      { role: "Exp Lane", hero: "Uranus", kda: "1/1/4", score: 7.0, mvp: true },
       { role: "Roam", hero: "Hylos", kda: "2/4/4", score: 6.2, mvp: false },
       { role: "Mid Lane", hero: "Zetian", kda: "1/4/5", score: 5.7, mvp: false },
       { role: "Jungler", hero: "X Borg", kda: "4/5/1", score: 4.6, mvp: false },
@@ -53,7 +54,7 @@ const matches = [
       { role: "Exp Lane", hero: "Phoveus", kda: "1/1/3", score: 5.8, mvp: false },
       { role: "Roam", hero: "Khaleed", kda: "3/6/3", score: 5.5, mvp: false },
       { role: "Mid Lane", hero: "Zetian", kda: "1/3/4", score: 5.8, mvp: false },
-      { role: "Jungler", hero: "Suyou", kda: "3/3/3", score: 6, mvp: false },
+      { role: "Jungler", hero: "Suyou", kda: "3/3/3", score: 6.0, mvp: false },
       { role: "Gold Lane", hero: "Granger", kda: "0/6/5", score: 3.7, mvp: false },
     ],
   },
@@ -64,7 +65,7 @@ const matches = [
     format: "BO3",
     round: "Round 2",
     players: [
-      { role: "Exp Lane", hero: "Phoveous", kda: "1/3/10", score: 8.4, mvp: true },
+      { role: "Exp Lane", hero: "Phoveus", kda: "1/3/10", score: 8.4, mvp: true },
       { role: "Roam", hero: "Khaleed", kda: "3/3/6", score: 7.8, mvp: false },
       { role: "Mid Lane", hero: "Vexana", kda: "3/4/5", score: 7.4, mvp: false },
       { role: "Jungler", hero: "Leomord", kda: "5/3/6", score: 8.3, mvp: false },
@@ -78,7 +79,7 @@ const matches = [
     format: "BO1",
     round: "Round 1",
     players: [
-      { role: "Exp Lane", hero: "Phoveous", kda: "3/0/8", score: 9.7, mvp: false },
+      { role: "Exp Lane", hero: "Phoveus", kda: "3/0/8", score: 9.7, mvp: false },
       { role: "Roam", hero: "Baxia", kda: "2/0/14", score: 11.9, mvp: true },
       { role: "Mid Lane", hero: "Yve", kda: "0/1/12", score: 8.6, mvp: false },
       { role: "Jungler", hero: "Leomord", kda: "6/1/8", score: 10.1, mvp: false },
@@ -88,5 +89,10 @@ const matches = [
 ];
 
 export default function Home() {
-  return <DataTemplate matches={matches} />;
+  return (
+    <>
+      <DataTemplate matches={matches} />
+      <BottomShade />
+    </>
+  );
 }
