@@ -86,6 +86,48 @@ const matches = [
       { role: "Gold Lane", hero: "Claude", kda: "6/1/5", score: 9.8, mvp: false },
     ],
   },
+  {
+    outcome: "VICTORY",
+    opponent: "Ninjas In Pajamas",
+    date: "18/04/2026",
+    format: "BO3",
+    round: "Round 1",
+    players: [
+      { role: "Exp Lane", hero: "Gloo", kda: "2/1/7", score: 7.8, mvp: false },
+      { role: "Roam", hero: "Khaleed", kda: "1/1/12", score: 9.8, mvp: true },
+      { role: "Mid Lane", hero: "Lylia", kda: "3/4/7", score: 7.3, mvp: false },
+      { role: "Jungler", hero: "Suyou", kda: "6/0/4", score: 9.6, mvp: false },
+      { role: "Gold Lane", hero: "Claude", kda: "3/2/6", score: 8.2, mvp: false },
+    ],
+  },
+  {
+    outcome: "DEFEAT",
+    opponent: "Ninjas In Pajamas",
+    date: "18/04/2026",
+    format: "BO3",
+    round: "Round 2",
+    players: [
+      { role: "Exp Lane", hero: "Lapu-Lapu", kda: "1/5/0", score: 3.0, mvp: false },
+      { role: "Roam", hero: "Khaleed", kda: "1/3/2", score: 5.8, mvp: false },
+      { role: "Mid Lane", hero: "Yve", kda: "2/2/2", score: 6.4, mvp: false },
+      { role: "Jungler", hero: "Lancelot", kda: "0/1/3", score: 5.7, mvp: false },
+      { role: "Gold Lane", hero: "Claude", kda: "0/3/1", score: 3.6, mvp: false },
+    ],
+  },
+  {
+    outcome: "DEFEAT",
+    opponent: "Ninjas In Pajamas",
+    date: "18/04/2026",
+    format: "BO3",
+    round: "Round 3",
+    players: [
+      { role: "Exp Lane", hero: "Terizla", kda: "0/1/5", score: 6.7, mvp: false },
+      { role: "Roam", hero: "Hilda", kda: "4/5/3", score: 6.8, mvp: false },
+      { role: "Mid Lane", hero: "Lylia", kda: "3/1/6", score: 9.3, mvp: true },
+      { role: "Jungler", hero: "Yi Sun Shin", kda: "1/1/5", score: 7.0, mvp: false },
+      { role: "Gold Lane", hero: "Karrie", kda: "3/2/1", score: 6.3, mvp: false },
+    ],
+  },
 ];
 
 export default function Home() {
