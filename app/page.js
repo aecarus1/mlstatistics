@@ -128,6 +128,48 @@ const matches = [
       { role: "Gold Lane", hero: "Karrie", kda: "3/2/1", score: 6.3, mvp: false },
     ],
   },
+  {
+    outcome: "VICTORY",
+    opponent: "RIP",
+    date: "19/04/2026",
+    format: "Knockout",
+    round: "Round 1",
+    players: [
+      { role: "Exp Lane", hero: "Phoveus", kda: "2/1/7", score: 8.4, mvp: false },
+      { role: "Roam", hero: "Hilda", kda: "4/0/6", score: 10.4, mvp: true },
+      { role: "Mid Lane", hero: "Lylia", kda: "0/1/9", score: 7.7, mvp: false },
+      { role: "Jungler", hero: "Leomord", kda: "6/1/2", score: 8.3, mvp: false },
+      { role: "Gold Lane", hero: "Claude", kda: "2/1/5", score: 7.7, mvp: false },
+    ],
+  },
+  {
+    outcome: "DEFEAT",
+    opponent: "Epsilon Eternal",
+    date: "19/04/2026",
+    format: "BO3",
+    round: "Round 1",
+    players: [
+      { role: "Exp Lane", hero: "Gloo", kda: "1/2/1", score: 5.4, mvp: false },
+      { role: "Roam", hero: "Khufra", kda: "0/2/3", score: 7.1, mvp: true },
+      { role: "Mid Lane", hero: "Lunox", kda: "1/3/2", score: 5.2, mvp: false },
+      { role: "Jungler", hero: "Suyou", kda: "0/2/2", score: 4.9, mvp: false },
+      { role: "Gold Lane", hero: "Karrie", kda: "1/4/0", score: 4.0, mvp: false },
+    ],
+  },
+  {
+    outcome: "DEFEAT",
+    opponent: "Epsilon Eternal",
+    date: "19/04/2026",
+    format: "BO3",
+    round: "Round 2",
+    players: [
+      { role: "Exp Lane", hero: "Phoveus", kda: "0/3/3", score: 5.3, mvp: false },
+      { role: "Roam", hero: "Khaleed", kda: "0/5/2", score: 3.8, mvp: false },
+      { role: "Mid Lane", hero: "Lylia", kda: "0/2/4", score: 6.1, mvp: false },
+      { role: "Jungler", hero: "Leomord", kda: "4/2/0", score: 6.9, mvp: true },
+      { role: "Gold Lane", hero: "Claude", kda: "0/3/1", score: 3.2, mvp: false },
+    ],
+  },
 ];
 
 export default function Home() {

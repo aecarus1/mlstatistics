@@ -115,7 +115,7 @@ export default function DataTemplate({ matches }) {
             <div className="px-6 py-5 border-b border-border flex items-center justify-between">
                 <div>
                     <span className="text-sm font-mono font-bold tracking-widest uppercase text-foreground">
-                        MLBB
+                        CC
                     </span>
                     <span className="text-sm font-mono font-normal tracking-widest uppercase text-muted-foreground">
                         {" "}Scrim Statistics
